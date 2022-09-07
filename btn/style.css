@@ -1,0 +1,31 @@
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px 50px;
+    border: 3PX solid #3c67e3;
+    border-radius: 10px;
+    margin: 77px 460px;
+    margin-top: 264px;
+}
+
+.btn:hover {
+    animation: pulsate 3s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
+    }
+}
+
+* {
+    /* background: rgba(0, 0, 0, 0.519); */
+    box-sizing: border-box;
+    background-color: black;
+}
+
+xd {
+    text-align: center;
+}

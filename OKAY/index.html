@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE BUILD SITES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Saira:wght@200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/244aa05278.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="INDEX.HTML"><img src="img/Logo.png"></a>
+            <div class="nav-link">
+                <i class="fa fa-rectangle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SEVRIVES</a></li>
+                    <li><a href="#">OURWORK</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars-staggered" onclick="showmenu()"></i>
+        </nav>
+
+
+        <div class="textbox">
+            <h1> IM HERE TO GROW YOUR BUSNINESS ONLINE </h1>
+            <P>In Order Grow Your Business Online You Have To Contact Me You Dont Know How Im Here <br> Help You Out MET IM YOUR FAVOURITE WEBSITE DEVELOPER</P>
+            <a href="" class="btn">CONTACT US TO KNOW MORE</a>
+        </div>
+    </section>
+
+    <!---------------------------- java script----------------------  -->
+    <script>
+        var navlink = document.getElementById("nav-link");
+
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlink.style.right = "-200px "
+        }
+    </script>
+
+
+</body>
+
+</html>
