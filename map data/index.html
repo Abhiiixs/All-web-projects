@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <title>covid case map</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id='map'></div>
+</body>
+
+
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JlZWtnb2RzYWxpZW5zIiwiYSI6ImNsNTg5d2VkNDIxM2Qza215ZngzdzM3c3QifQ.s9tIG7bZC2cgVu6d3NH-Rw';
+    var map = new mapboxgl.Map({
+        container: 'map',
+
+        style: 'mapbox://styles/mapbox/dark-v10',
+        zoom: 1,
+        center: [0, 19],
+
+    });
+</script>
+
+
+
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="coupon-card">
+            <img src="uber.png" class="logo">
+            <h3>20% Flat Off On All Rides within the City Using <br> HDIFC Credit Card</h3>
+
+            <div class="coupon-row">
+                <span id="cpncode">FUCKYOU69</span>
+                <span id="cpnbtn">COPY CODE</span>
+            </div>
+
+
+
+
+
+
+
+            <p>Vaid Till : 20 Dec2022</p>
+
+
+
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+    <script>
+        var cpnbtn = document.getElementById("cpnbtn");
+        var cpncode = document.getElementById("cpncode");
+
+        cpnbtn.onclick = function() {
+            navigator.clipboard.writeText(cpncode.innerHTML);
+            cpnbtn.innerHTML = "COPIED";
+            setTimeout(function() {
+                cpnbtn.innerHTML = "COPY CODE"
+            }, 3000);
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>

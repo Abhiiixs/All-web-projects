@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daddy Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/t.jpg');
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 1%;
+        top: 1%;
+    }
+    
+    .left img {
+        /* width: 30px;
+        filter: invert(100%);
+        text-align: center; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 83px;
+        filter: invert(100%);
+    }
+    
+    .left div {
+        text-align: center;
+        color: gold;
+        line-height: 27px;
+        font-size: 26px;
+    }
+    
+    .mid {
+        display: block;
+        width: 30%;
+        margin: 2% auto;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 20px;
+    }
+    
+    .right {
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+    
+    .navbar li a {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 2px 5px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a :active {
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+        background-color: rgb(211, 211, 211);
+        ;
+    }
+    
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 28px 9px;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        padding: 4px 24px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 7px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(211, 211, 211);
+    }
+    
+    .container {
+        border: 2px solid rgb(255, 255, 255);
+        margin: 131px 40px;
+        padding: 38px;
+        width: 666px;
+        border-radius: 20px;
+    }
+    
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    
+    .container h1 {
+        text-align: center;
+    }
+    
+    .container button {
+        display: block;
+        width: 20%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+
+
+    <div>
+
+        <header class="header">
+            <div class="left">
+
+                <img src="img/xd.png" alt="">
+
+                <div> Daddys Fitness</div>
+
+            </div>
+
+            <div class="mid">
+
+                <ul class="navbar">
+
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness center</a></li>
+                    <li><a href="#">contact</a></li>
+
+
+                </ul>
+            </div>
+
+            <div class="right">
+                <button class="btn">call us </button>
+                <button class="btn">Email us </button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Join the best gym in city now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="Name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="Name" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="Name" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="Name" placeholder="Enter your Email">
+                </div>
+            </form>
+            <button class="btn">Submit</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

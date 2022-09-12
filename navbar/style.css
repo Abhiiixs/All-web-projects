@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.container {
+    background: #ffbdc9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-image: url("./unnamed.png");
+}
+
+nav {
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.4);
+    background: url("./nft\ \(1\).png")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul li {
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+nav ul li::after {
+    content: '';
+    background: #f44566;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opaccity 0.5s;
+}
+
+nav ul li:hover {
+    color: #fff;
+}
+
+nav ul li:hover::after {
+    top: 50%;
+    opacity: 1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'poppins';
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: /*linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3)),*/
+    url("img/XD.PNG");
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 40px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+/* .nav ul li ::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}  */
+
+n
+/* .nav ul li :hover::after {
+    width: 100%;
+} */
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 150px;
+    color: #FFF;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.container h1:hover {
+    -webkit-text-stroke: 2px #FFF;
+    color: transparent;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    color: #FFF;
+    border: 2px solid;
+    border-radius: 2px solid white;
+    /* border-color: #FFF; */
+    border-radius: 48px;
+    padding: 15px 60px;
+    background-color: transparent;
+    margin-top: 40px;
+    justify-content: space-between;
+    margin: 10px 248px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media(min-aspect-ratio:16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+/* nav ul li a:hover {
+    background-color: rgb(0, 85, 221);
+} */
+
+nav ul li ::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #00ff2f;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul li :hover::after {
+    width: 100%;
+}

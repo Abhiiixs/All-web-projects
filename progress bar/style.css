@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conatiner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+}
+
+h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.bar {
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    background: #e91e63;
+    animation: html 2s linear forwards;
+}
+
+.CSS {
+    background: #c20088;
+    animation: CSS 1s linear forwards;
+}
+
+.Javascript {
+    background: #00bcd4;
+    animation: Javascript 1.5s linear forwards;
+}
+
+.Blockchain {
+    background: #ffeb3b;
+    animation: Blockchain 1s linear forwards;
+}
+
+.Backend {
+    background: #9c27b0;
+    animation: Backend 1.2s linear forwards;
+}
+
+.Wordpress {
+    background: #0c31ff;
+    animation: Wordpress 1.5s linear forwards;
+}
+
+.PhP {
+    background: #9100ff;
+    animation: PhP 2s linear forwards;
+}
+
+.html span {
+    border: 1px solid #e91e63;
+}
+
+.CSS span {
+    border: 1px solid #c20088;
+}
+
+.Javascript span {
+    border: 1px solid #00bcd4;
+}
+
+.Blockchain span {
+    border: 1px solid #ffeb3b;
+}
+
+.Backend span {
+    border: 1px solid #9c27b0;
+}
+
+.Wordpress span {
+    border: 1px solid #0c31ff;
+}
+
+.PhP span {
+    border: 1px solid #9100ff;
+}
+
+@keyframes html {
+    100% {
+        width: 92%;
+    }
+}
+
+@keyframes CSS {
+    100% {
+        width: 82%;
+    }
+}
+
+@keyframes Javascript {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes Blockchain {
+    100% {
+        width: 73%;
+    }
+}
+
+@keyframes Backend {
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes Wordpress {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes PhP {
+    100% {
+        width: 90%;
+    }
+}
+
+
+/* .skills {
+    background-image: url(./unnamed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */

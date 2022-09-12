@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW BIKE WEB</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+
+<body>
+    <div class="container" id="BIKE">
+        <nav>
+            <img src="img/logo.png" class="logo">
+            <a href="#" class="btn">okay</a>
+        </nav>
+
+        <div class="content">
+            <H2>THE BMW </H2>
+            <H1>G 310 R</H1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quam quia mollitia corrupti eum culpa totam voluptas obcaecati. Facilis maiores deserunt possimus repellat aliquam. Rem dignissimos maxime vitae officia.</P>
+            <H3>Choose your colour </H3>
+
+            <div class="color">
+
+                <div id="red"></div>
+                <div id="blue"></div>
+                <div id="black"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        let red = document.getElementById("red");
+        let blue = document.getElementById("blue");
+        let black = document.getElementById("black");
+        let BIKE = document.getElementById("BIKE");
+
+
+        red.onclick = function() {
+            BIKE.style.backgroundImage = "url(IMG/BMW1.png)";
+        }
+
+        blue.onclick = function() {
+            BIKE.style.backgroundImage = "url(IMG/BMW2.png)";
+        }
+
+        black.onclick = function() {
+            BIKE.style.backgroundImage = "url(IMG/BMW3.png)";
+        }
+    </script>
+</body>
+
+</html>

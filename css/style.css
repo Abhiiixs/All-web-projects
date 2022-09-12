@@ -1,0 +1,23 @@
+/* .container {
+    height: 100%;
+    background-image: url(./pexels-tranmautritam-251225.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+
+/* .container {
+    border: 2px dashed red;
+    border-style: groove;
+    padding: 40px;
+    margin: 40px;
+}
+
+ul {
+    list-style: square;
+} */
+
+input {
+    outline-color: blue;
+}
